@@ -1,0 +1,5 @@
+build/
+dist/
+*.mp3
+*.spec
+*.txt
