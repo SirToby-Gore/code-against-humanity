@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+
+    height: 100dvh;
+
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: darkgrey;
+
+    min-width: 25rem;
+    min-height: 25rem;
+
+    border-radius: clamp(2rem, 3vw, 6rem);
+
+    padding: clamp(2rem, 3vw, 6rem);
+
+    .black-card-title {
+        color: white;   
+        background-color: black;
+        padding: 3rem;
+        border-radius: 1.5rem;
+    }
+
+    .player-name-subtitle,
+    .card-reader-title {
+        margin: 1rem;
+        padding: 0.4rem;
+        border-radius: 0.4rem;
+    }
+
+    .player-name-subtitle{
+        border: white solid 0.15rem;
+    }
+    
+    .card-reader-title {
+        border: black solid 0.15rem;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        button {
+            margin: 0.15rem;
+            
+            padding: 0.3rem;
+            background-color: burlywood;
+
+            border: none;
+            border-radius: 0.5rem;
+
+            &:hover,
+            &:active,
+            &:focus-within {
+                background-color: chocolate;
+            }
+        }
+    }
+
+    .winners-title {
+        color: white;
+        background-color: black;
+        padding: 3rem;
+        border-radius: 1.5rem;
+    }
+
+    .winners-grid {
+        width: 90%;
+
+        tr {
+            width: 100%;
+
+            th {
+                font-weight: bolder;
+            }
+        }
+    }
+}

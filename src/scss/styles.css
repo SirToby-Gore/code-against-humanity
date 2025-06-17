@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 100dvh;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: darkgrey;
+  min-width: 25rem;
+  min-height: 25rem;
+  border-radius: clamp(2rem, 3vw, 6rem);
+  padding: clamp(2rem, 3vw, 6rem);
+}
+#main .black-card-title {
+  color: white;
+  background-color: black;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+#main .player-name-subtitle,
+#main .card-reader-title {
+  margin: 1rem;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+#main .player-name-subtitle {
+  border: white solid 0.15rem;
+}
+#main .card-reader-title {
+  border: black solid 0.15rem;
+}
+#main .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main .card-container button {
+  margin: 0.15rem;
+  padding: 0.3rem;
+  background-color: burlywood;
+  border: none;
+  border-radius: 0.5rem;
+}
+#main .card-container button:hover, #main .card-container button:active, #main .card-container button:focus-within {
+  background-color: chocolate;
+}
+#main .winners-title {
+  color: white;
+  background-color: black;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+#main .winners-grid {
+  width: 90%;
+}
+#main .winners-grid tr {
+  width: 100%;
+}
+#main .winners-grid tr th {
+  font-weight: bolder;
+}/*# sourceMappingURL=styles.css.map */
